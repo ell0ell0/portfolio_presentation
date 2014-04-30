@@ -20,6 +20,10 @@ $( document ).ready(function() {
     width = $(window).width();
     height = $(window).height();
     $(".slide_container").css("height", height + "px");
+    var target = "#" + sections[slideNum];
+    $('html,body').animate({
+      scrollTop: $(target).offset().top
+    }, 250);
   });
 
 
