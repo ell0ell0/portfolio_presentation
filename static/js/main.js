@@ -5,6 +5,7 @@ $( document ).ready(function() {
   var slideNum = 0;
   var sections = [];
 
+
   $(".slide_container").css("height", height + "px");
 
   $(".slide_container").each(function() {
